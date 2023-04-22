@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>UCSAT</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"
+          ><img src="images/logo.png" alt="logo of the college" width="250"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+    <!-- ===BLOG CONTENT=== -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="./images/grad.jpg" alt="" />
+          <h2>Our Certificate & Online Programs For 2022</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+            dicta cumque accusamus quas nobis vel assumenda itaque animi quam
+            cupiditate quia recusandae rerum amet delectus exercitationem,
+            praesentium ea necessitatibus possimus voluptas non? Impedit quia,
+            reiciendis praesentium sint sit neque saepe?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex soluta
+            magnam ipsam molestias voluptate, placeat ad iusto cum magni
+            accusamus, ullam sequi tempora perferendis ipsa saepe amet. Dolorum,
+            architecto. Culpa beatae, omnis a at et vel veritatis blanditiis
+            earum, illum, minima accusantium ipsa quis laboriosam cumque odio?
+            Odit, quis amet aperiam numquam rerum labore voluptates iste
+            voluptatum doloremque non iure.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum amet
+            illo cumque sit placeat a eum ut, assumenda incidunt veniam iste
+            laudantium harum neque eius quibusdam! Eligendi repellat sequi ad
+            similique fugit dolorem commodi cumque maiores, optio in aliquam
+            expedita? Eaque, officiis laudantium? Voluptates dolorum nulla quo
+            culpa, officiis aliquid labore, accusamus dicta, velit suscipit
+            placeat omnis maiores .
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            eligendi eos aut quos iste ducimus ab laudantium facilis ipsum.
+            Impedit asperiores ullam ut repudiandae voluptates praesentium rem
+            debitis. Accusamus temporibus inventore aspernatur aut provident
+            veniam sint facere aliquam illum. Blanditiis.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea
+                cols="30"
+                rows="5"
+                placeholder="Your comment"
+              ></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>20</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>45</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===FOOTER=== -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis natus
+        delectus, veritatis soluta <br />
+        quis ducimus repellendus ullam incidunt fuga iste veniam facilis totam,
+        laboriosam iusto exercitationem? <br />
+        Dolorum pariatur at veritatis?
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Unnikrishnan</p>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
